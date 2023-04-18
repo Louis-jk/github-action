@@ -23,12 +23,16 @@ const Home = () => {
 
   return (
     <div className="main_container">
+      {/* 왼쪽 입력 Area */}
       <section>
         <p>메인 이미지를 선택해주세요.</p>
         <input type="file" id="fileUpload" onChange={handleChange} />
         <p>문구를 입력해주세요.</p>
         <textarea onChange={(e) => setText01Area(e.target.value)} />
+        <p>음악 선택</p>
       </section>
+      {/* // 왼쪽 입력 Area */}
+
       <section>
         <div className="mobile_emulator">
           <p>Wedding</p>
