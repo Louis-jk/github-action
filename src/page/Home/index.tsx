@@ -30,6 +30,8 @@ const Home = () => {
         <p>문구를 입력해주세요.</p>
         <textarea onChange={(e) => setText01Area(e.target.value)} />
         <p>음악 선택</p>
+        <p>신랑 연락처</p>
+        <p>신부 연락처</p>
       </section>
       {/* // 왼쪽 입력 Area */}
 
