@@ -12,8 +12,6 @@ function App() {
   const getNames = async () => {
     const response = await axios.get('/names');
     setUserName(response.data);
-
-    console.log(response);
   };
 
   return (
