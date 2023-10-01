@@ -1,19 +1,23 @@
-## github action practice
+# github action practice
 
 ![Alt text](image.png)
 
 ---
 
-### Intergration
+## Intergration
 
-Action:Intergration(file: intergration.yaml)
+### Action: Intergration
+
+(file: intergration.yaml)
 
 ![Alt text](image-1.png)
 
 ---
 
-### Release
+## Release
 
-Action:Release(file: release.yaml)
+### Action: Release
+
+(file: release.yaml)
 
 ![Alt text](image-2.png)
